@@ -1,0 +1,37 @@
+{
+  "name": "praman-cert-system",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "node scripts/setup-postgres.js",
+    "db:clear": "node scripts/clear-database.js"
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "csv-parse": "^7.0.2",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.475.0",
+    "next": "^14.2.24",
+    "pdf-lib": "^1.17.1",
+    "pg": "^8.13.3",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.17.19",
+    "@types/pg": "^8.11.11",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "sharp": "^0.35.3",
+    "typescript": "^5.7.3"
+  }
+}
