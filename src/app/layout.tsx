@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Praman Network — Certificate Verification System',
   description: 'Cryptographically secured internship and achievement credential verification system by Praman Network.',
   icons: {
-    icon: '/praman-logo.png',
+    icon: '/PramanLogo.png',
   },
 };
 
